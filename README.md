@@ -23,7 +23,9 @@ To study a real-life network traffic scenario, we had to generate such a kind of
 
 Phase 2: Setting up the infrastructure
 
-<div align=center>![Picture1](https://github.com/Rayhan2525/SteppingStoneDataColl/assets/111722538/64dfa9aa-194a-4ec3-bb2f-8a4690ace45a)</div>
+<div align=center>
+  <img src="/images/Picture1">
+</div>
 
 Image 1 is the network layout of our infrastructure. The blue and red box indicates the teams (Blue & Red) and their respective Network Addresses. Green, Purple, and Pink boxes are different networks of the environment that will be used within the scope of the competition. The network consists of many different hosts with a mixture of Windows and Linux OS. These hosts ran different services such as SMB, SMTP, HTTP, and Active Directory (AD). The whole goal was to mimic a real-life organization that runs different subnets, hosts, and services. We set up these hosts and configured different services and vulnerabilities in them.
 
