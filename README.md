@@ -41,5 +41,6 @@
   <p>Image 2 shows the two hops. The two hops consist of an overlap of SSH connection with an equal amount of data bytes. This indicates that this is a pivot because the SSH connection is shifting from one host to the other. The attacker uses H1 to communicate with H2 but uses H2 to communicate with H3. Image 2 includes the timestamps to prove that all the SSH communications are happening simultaneously between the three hosts.</p>  
   <p><strong>Note: The above explanation is drawn from analyzing the network traffic from our simulated attack infrastructure.</strong></p> 
   <p>A detailed explanation of these results, based on its statistics, is mentioned in our research paper. Hence, if such a pattern is found among Hosts, they can be flagged to be investigated. Such a method of detection can be implemented on routers that foresee traffic between Hosts from different networks, hence routers can be a great point where This approach can be implemented to detect stepping-stone attacks.</p>
+  <a href="https://github.com/Rayhan2525/SteppingStoneDataColl/blob/main/document/Stepping_Stone_Detection-1.pdf" target="_blank">Link to the project document.</a>
 </div>
 
