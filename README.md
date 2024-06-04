@@ -1,4 +1,4 @@
-# Stepping Stone Detection : Data Collection.
+# Stepping-stone Detection : Data Collection.
 <b>Key learnings:</b>
   - <b>Learning about different cyber attacks.</b>
   - <b>Designing and setting up different vulnerabilities.</b>
@@ -7,17 +7,17 @@
   - <b>Data analysis.</b>
 
 <h2>What is this project about?</h2>
-<b>This project is about detecting a cyber attack called stepping-stone intrusions, where attackers use multiple computers to hide their true location. In this project, we created a simulated network infrastructure of a hospital environment. This environment will be used to perform multiple cyber attacks. Network traffic generated from this exercise was collected to analyze it, identify patterns, and find attack paths. The idea behind data analysis is to figure out a way how stepping-stone intrusion attacks can be detected.</b>
+<b>This project is about detecting a cyber attack called Stepping-stone intrusions, where attackers use multiple computers to hide their true location. This project was done as a final year Capstone project. It was a team project, done by my team members and myself. In this project, we created a simulated network infrastructure of a hospital environment. This environment will be used to perform multiple cyber attacks. Network traffic generated from this exercise was collected to analyze, identify patterns, and find attack paths. The idea behind data analysis is to figure out how Stepping-stone intrusion attacks can be detected.</b>
 
-<h2>What is a Stepping Stone Attack?</h2>
-A stepping-stone attack is when a hacker uses a series of computers to hide their real location while launching an attack. They "hop" through these computers like stepping stones, making it harder to trace where the attack is coming from.
+<h2>What is a Stepping-stone attack?</h2>
+A Stepping-stone attack is when a hacker uses a series of computers to hide their real location while launching an attack. They "hop" through these computers like stepping stones, making it harder to trace where the attack is coming from.
 
 <div>
   <h2>Project Setup.</h2>
   
   <h3>Phase 1: Generating Network traffic</h3>
   
-  The goal of this project was to understand how Stepping-stone attacks work and how they can be detected. Our first goal was to create a stepping-stone attack scenario. Creating this would allow us to extract network traffic that can be utilized in studying how stepping-stone attacks work from a network point of view. The reason for us to focus on Network traffic is because that is essentially the simplest form of analyzing how two devices on a network communicate. Understanding the communication would teach how attackers pivot or hop from one device to the other. Hence setting up a real-life organizational network infrastructure and analyzing its data would project a similar scenario.
+  The goal of this project was to understand how Stepping-stone attacks work and how they can be detected. Our first goal was to create a Stepping-stone attack scenario. Creating this would allow us to extract network traffic that can be utilized in studying how Stepping-stone attacks work from a network point of view. The reason for us to focus on Network traffic is because that is essentially the simplest form of analyzing how two devices on a network communicate. Understanding the communication would teach how attackers pivot or hop from one device to the other. Hence setting up a real-life organizational network infrastructure and analyzing its data would project a similar scenario.
    
   To study a real-life network traffic scenario, we had to generate such a kind of network data. We decided to set up our network infrastructure and launch it as a Red Team vs Blue Team competition within our university. The design of the competition was simple, the blue team would defend their organization while the red team would attack the organization and move from one subnet to the other pivoting their way through to the final flag in the final network.
   
